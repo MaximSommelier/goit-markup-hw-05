@@ -272,7 +272,8 @@ img {
 }
 
 .about-item-title{
-    padding-top: 27px;
+    display: block;
+    margin: auto;
     color: var(--third-color);
     font-weight: 700;
     font-size: 14px;
