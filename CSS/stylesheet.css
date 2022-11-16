@@ -256,6 +256,29 @@ img {
 .section-about{
     padding-top: 0px;
 }
+.about-card{
+    position: relative;
+}
+
+.about-info{
+    display: flex;
+    width: 370px;
+    min-height: 70px;
+    text-align: center;
+    justify-content: center;
+    background: rgba(47, 48, 58, 0.8);
+    position: absolute;
+    bottom: 0;
+}
+
+.about-item-title{
+    padding-top: 27px;
+    color: var(--third-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase; 
+}
 /* команда */
 
 .section-team{
