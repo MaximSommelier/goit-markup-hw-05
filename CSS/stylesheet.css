@@ -41,6 +41,8 @@ img {display: block;
     padding-top: 94px;
     padding-bottom: 94px;
 }
+
+
 .container{
     width: 1200px;
     padding-left: 15px;
@@ -62,7 +64,12 @@ img {
 
 
 /* HEADER */
-
+.header-main{
+    border: 1px solid var(--first-color);
+}
+.header-portfolio{
+    border-bottom: 1px solid var(--portfolio-border);
+}
 .container-navi{
     display: flex;
     justify-content: space-between;
@@ -169,9 +176,7 @@ img {
 }
 
 
-.header-navi-border{
-    border-bottom: 1px solid var(--portfolio-border);
-}
+
 
 /* .main-section */
 .main-section{
