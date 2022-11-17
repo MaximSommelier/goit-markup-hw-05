@@ -64,9 +64,7 @@ img {
 
 
 /* HEADER */
-.header-main{
-    border: 1px solid var(--first-color);
-}
+
 .header-portfolio{
     border-bottom: 1px solid var(--portfolio-border);
 }
