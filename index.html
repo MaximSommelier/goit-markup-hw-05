@@ -441,10 +441,12 @@
   </div>
   </footer>
   <p></p>
-  <button class="main-button" type="button">Замовити послугу</button>
+  <button data-modal-open class="main-button" type="button">Замовити послугу</button>
   <p></p>
   <div class="backdrop">
-    <div class="modal"></div>
+    <div class="modal is-hidden">
+      <button data-modal-close>X</button>
+    </div>
   </div>
   <script src="./JS/modal.js"></script>
 </body>
