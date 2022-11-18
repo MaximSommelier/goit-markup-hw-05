@@ -421,6 +421,7 @@ img {
 }
 .portfolio-card:hover .portfolio-card-overlay{
     opacity: 1;
+    transform: translateY(0);
 }
 
 .portfolio-card-overlay{
@@ -440,6 +441,7 @@ img {
     text-decoration: none;
     background-color: rgba(33, 150, 243, 0.9);
     opacity: 0;
+    transform: translateY(100%);
 }
 
 .port-text{
