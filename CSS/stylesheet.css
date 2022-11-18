@@ -647,5 +647,13 @@ letter-spacing: 0.03em;
 .socials-links-footer:hover{
     background-color: var(--second-color);
 }
-
-
+/* МОДАЛЬНЕ ВІКНО */
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 1600px    ;
+    height: 1024px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
+}
