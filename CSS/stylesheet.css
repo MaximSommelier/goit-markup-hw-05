@@ -681,7 +681,7 @@ letter-spacing: 0.03em;
 }
 
 .modal-btn{
-    display: inline-flex;
+    display: flex;
     position: absolute;
     width: 30px;
     height: 30px;
