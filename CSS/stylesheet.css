@@ -682,6 +682,7 @@ letter-spacing: 0.03em;
     margin-right: 8px;
     margin-bottom: 543px;
     margin-left: 490px;
+    color: rgba(0, 0, 0, 1);
     background-color: var(--third-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
