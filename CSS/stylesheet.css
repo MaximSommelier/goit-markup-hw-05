@@ -423,11 +423,11 @@ img {
     position: relative;
     overflow: hidden;
 }
-.portfolio-card:hover .portfolio-card-overlay1{
+.portfolio-card:hover .portfolio-card-overlay{
     opacity: 1;
     transform: translateY(0);
 }
-.portfolio-card-overlay1{
+.portfolio-card-overlay{
     position: absolute;
     top: 0;
     left: 0;
