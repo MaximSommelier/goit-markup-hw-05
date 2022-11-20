@@ -372,7 +372,7 @@ img {
 .socials-links:hover .socials-icon{
     fill: var(--third-color);
 }
-/* Наші клієнти */
+  /* Наші клієнти */
 .clients{
     display: flex;
     justify-content: center;
@@ -412,29 +412,36 @@ img {
     gap: 30px;
     flex-basis: calc(100% / 3 - 30px);
 }
-/* портфоліо анімація */
-.portfolio-card{
-    position: relative;
-    overflow: hidden;
-}
 
 .portfolio-card:hover{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.portfolio-card:hover .portfolio-card-overlay{
+/* Портфоліо -анімація */
+
+.portfolio-thumb{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-card:hover .portfolio-card-overlay1{
     opacity: 1;
     transform: translateY(0);
 }
-
-.portfolio-card-overlay{
+.portfolio-card-overlay1{
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 106px;
-    display: block;
     width: 100%;
+    height: 100%;
     padding: 63px 24px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(33, 150, 243, 0.9);
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform var(--timing-function);
+}
+.overlay-text{
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
     font-size: 18px;
@@ -442,10 +449,6 @@ img {
     letter-spacing: 0.03em;
     color: var(--third-color);
     text-decoration: none;
-    background-color: rgba(33, 150, 243, 0.9);
-    opacity: 0;
-    transform: translateY(100%);
-    transition: transform var(--timing-function);
 }
 
 .port-text{
@@ -656,10 +659,12 @@ letter-spacing: 0.03em;
     height: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: rgba(0, 0, 0, 0.2);
+    transition: opacity var(--timing-function), visibility var(--timing-function);
 }
 
 .backdrop.is-hidden{
     opacity: 0;
+    visibility: hidden;
     pointer-events: none;
 }
 
@@ -676,17 +681,21 @@ letter-spacing: 0.03em;
 }
 
 .modal-btn{
-    display: inline-block;
+    display: inline-flex;
     position: absolute;
-    margin-top: 8px;
-    margin-right: 8px;
-    margin-bottom: 543px;
-    margin-left: 490px;
-    color: var(--first-color);
+    width: 30px;
+    height: 30px;
+    top: 8px;
+    right: 8px;
+    align-items: center;
+    justify-content: center;
     background-color: var(--third-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    padding: 6px;
+    padding: 0;
     cursor: pointer;
+}
 
+.modal-icon{
+    fill: var(--first-color);
 }
