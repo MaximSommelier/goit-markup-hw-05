@@ -676,5 +676,15 @@ letter-spacing: 0.03em;
 }
 
 .modal-btn{
-    
+    display: inline-block;
+    position: absolute;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 543px;
+    margin-left: 490px;
+    background-color: var(--third-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    padding: 6px;
+
 }
