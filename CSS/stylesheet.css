@@ -132,6 +132,7 @@ img {
     text-decoration: none;
     list-style-type: none;
     letter-spacing: 0.02em;
+    transition: color var(--timing-function);
 }
 
 .contacts1 {
@@ -143,6 +144,7 @@ img {
     text-decoration: none;
     list-style-type: none;
     letter-spacing: 0.02em;
+    transition: color var(--timing-function);
 }
 .contacts:hover,
 .contacts1:hover {
@@ -222,12 +224,12 @@ img {
     padding: 10px 32px;
     min-width: 216px;
     min-height: 50px;
+    transition: background-color var(--timing-function);
 }
 
 .main-button:hover{
     background-color: var(--main-button-background);
 }
-
 .main-button:focus{
     background-color:var(--main-button-background);
 }
@@ -356,10 +358,12 @@ img {
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    transition: background-color var(--timing-function);
 }
 
 .socials-icon {
     fill: var(--icons-color);
+    transition: fill var(--timing-function);
 }
 
 .socials-links:focus,
@@ -389,10 +393,12 @@ img {
     border: 1px solid var(--icons-color); 
     border-radius: 4px;
     cursor: pointer;
+    transition: border-color var(--timing-function);
 }
 
 .icon-client{
     fill: var(--icons-color);
+    transition: fill var(--timing-function);
 }
 .client-link:hover,
 .client-link:focus{
@@ -425,6 +431,7 @@ img {
 .portfolio-card:hover .portfolio-card-overlay{
     opacity: 1;
     transform: translateY(0);
+    transition: transform var(--timing-function);
 }
 .portfolio-card-overlay{
     position: absolute;
@@ -509,6 +516,8 @@ img {
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.06em;
+    transition: color var(--timing-function);
+    transition: background-color var(--timing-function);
 }
 .button1:active{
     color: var(--third-color);
@@ -537,6 +546,7 @@ img {
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.06em;
+    transition: color var(--timing-function);
 }
 
 .button:active{
