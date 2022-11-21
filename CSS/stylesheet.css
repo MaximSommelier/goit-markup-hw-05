@@ -431,7 +431,6 @@ img {
 .portfolio-card:hover .portfolio-card-overlay{
     opacity: 1;
     transform: translateY(0);
-    transition: transform var(--timing-function);
 }
 .portfolio-card-overlay{
     position: absolute;
@@ -652,6 +651,7 @@ letter-spacing: 0.03em;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    transition: background-color var(--timing-function);
 }
 .socials-icon-footer{
     fill:var(--third-color);
