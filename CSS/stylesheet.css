@@ -118,10 +118,9 @@ img {
     height: 4px;
     border-radius: 2px;
     background-color: var(--second-color);
-    transition: opacity var(--timing-function);
 }
 
-.header-link:active::after{
+.header-link.current:after{
     opacity: 1;
 }
 
