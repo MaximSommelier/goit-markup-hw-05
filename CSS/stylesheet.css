@@ -422,7 +422,7 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* Портфоліо -анімація */
+/* Портфоліо -анімація! */
 
 .portfolio-thumb{
     position: relative;
@@ -447,6 +447,7 @@ img {
     transform: translateY(100%);
     transition: transform var(--timing-function);
 }
+
 .overlay-text{
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
