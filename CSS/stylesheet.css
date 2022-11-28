@@ -428,7 +428,8 @@ img {
     position: relative;
     overflow: hidden;
 }
-.portfolio-card:hover .portfolio-card-overlay{
+.portfolio-card:hover .portfolio-card-overlay,
+.portfolio-card:focus .portfolio-card-overlay{
     opacity: 1;
     transform: translateY(0);
 }
@@ -442,7 +443,7 @@ img {
     display: flex;
     align-items: center;
     background-color: rgba(33, 150, 243, 0.9);
-    opacity: 0;
+    overflow: auto;
     transform: translateY(100%);
     transition: transform var(--timing-function);
 }
